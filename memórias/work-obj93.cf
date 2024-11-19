@@ -1,0 +1,16 @@
+v 4
+file . "memoriaDados.vhd" "2e71de8bd415db550864cce1c44965e2cd97a658" "20241119143234.061":
+  entity memoriadados at 1( 0) + 0 on 581;
+  architecture memoriadados_arch of memoriadados at 18( 402) + 0 on 582;
+file . "utils.vhd" "677e941b10fa740c4cf410944e5f143cf6aa61ca" "20241115152112.866":
+  package utils at 1( 0) + 0 on 11 body;
+  package body utils at 20( 777) + 0 on 12;
+file . "ram_tb.vhd" "1ad39005bb67f003ba43448fc2885918bb815966" "20241119145723.637":
+  entity ram_tb at 1( 0) + 0 on 601;
+  architecture testbench of ram_tb at 8( 98) + 0 on 602;
+file . "rom_tb.vhd" "5534b77e945c82b06d59df57ec2641b4610d8248" "20241119145802.478":
+  entity rom_tb at 1( 0) + 0 on 605;
+  architecture rom_testbench of rom_tb at 8( 98) + 0 on 606;
+file . "memoriaInstrucoes.vhd" "4b0ebaf1b030b4e5459cadd8ce827256eb9f69d7" "20241119145756.808":
+  entity memoriainstrucoes at 1( 0) + 0 on 603;
+  architecture memoriainstrucoes_arch of memoriainstrucoes at 15( 316) + 0 on 604;
