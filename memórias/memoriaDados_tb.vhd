@@ -30,7 +30,6 @@ begin
     DUT : memoriaDados generic map("conteudo_memDados_af11_p1e5_carga.dat") port map(clk, wr, s_addr, s_data_i, s_data_o);
 
     process
-        variable addr_tmp: bit_vector(7 downto 0);
     begin 
         --Teste de escrita inicial da RAM com arquivo de texto
         -- for i in 0 to 255 loop
